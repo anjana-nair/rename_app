@@ -1,6 +1,6 @@
 # RenameApp
 
-TODO: Write a gem description
+Use this gem to rename your rails application
 
 ## Installation
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Open your "irb" console within your application root.
+
+Type the command:
+
+require 'rename_app'
+
+# The command that renames the app
+
+RenameApp.find_n_replace("The current name of the App", "The new name for the app")
+
+
 
 ## Contributing
 
